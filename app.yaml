@@ -1,0 +1,11 @@
+runtime: python27
+api_version: 1
+threadsafe: yes
+skip_files:
+  - ^scripts/.*$
+  - ^(.*/)?.*\.md$
+  - ^(.*/)?.*\.pyc$
+
+handlers:
+  - url: .*
+    script: serving-url.app
