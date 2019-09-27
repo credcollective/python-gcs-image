@@ -1,3 +1,10 @@
+**Disclaimer 1**: This solution is based on the App Engine's Python 2 environment. There are [plans to replace it by something more modern](https://github.com/albertcht/python-gcs-image/issues/3).
+
+**Disclaimer 2**: There are alternative implementations of this same solution that seem to be better maintained. Please consider taking a look at [albertcht/python-gcs-image](https://github.com/albertcht/python-gcs-image).
+
+---
+
+
 App Engine provides the ability to manipulate image data using a dedicated Images service. The Images service can manipulate images, composite multiple images into a single image, convert image formats, provide image metadata such as format, width, height, and a histogram of color values.
 
 
